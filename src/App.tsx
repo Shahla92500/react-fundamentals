@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import Counter from './component/Counter';
 import Todos from './component/Todos';
 import ShowHideMessage from './component/ShowHideMessage'
+import ColorPicker from './component/ColorPicker';
 // You can modify these variables
 const item = { name: "Smartphone", price: 799 };
 const quantity = 2;
@@ -53,6 +54,7 @@ function App() {
       </div>
       <p>Toggle Visibility </p>
       <ShowHideMessage/>
+      <ColorPicker/>
     </main>
   )
 }
