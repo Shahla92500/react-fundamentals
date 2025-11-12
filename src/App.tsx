@@ -4,6 +4,10 @@ import Counter from './component/Counter';
 import Todos from './component/Todos';
 import ShowHideMessage from './component/ShowHideMessage'
 import ColorPicker from './component/ColorPicker';
+import ContentSwitcher from './component/ContentSwitcher';
+import StatusShowHide from './component/StatusShowHide';
+import Toggler from './component/Toggler';
+
 // You can modify these variables
 const item = { name: "Smartphone", price: 799 };
 const quantity = 2;
@@ -55,6 +59,10 @@ function App() {
       <p>Toggle Visibility </p>
       <ShowHideMessage/>
       <ColorPicker/>
+      <Toggler/>
+      <ContentSwitcher/>
+      <StatusShowHide/>
+      
     </main>
   )
 }
